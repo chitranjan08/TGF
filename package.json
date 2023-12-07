@@ -1,7 +1,7 @@
 {
   "name": "tfg_test",
   "version": "1.0.0",
-  "description": "Assignment",
+  "description": "Assignment repo",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server"
