@@ -19,3 +19,10 @@ Create a MongoDB schema named gameSchema
 
 Configuration
 Update all the configuration in config/db.config.js
+
+create table users(
+    Id int primary key auto_increment,
+    email varchar(30) unique,
+    password varchar(250),
+    username varchar(50)
+);
